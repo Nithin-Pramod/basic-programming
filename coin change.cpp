@@ -42,5 +42,6 @@ int main()
     }
     cout<<"\nEnter the total weight : ";
     cin>>w;
+    sort(arr,arr+n);
     cout<<"\nNumber of coins required : "<<coinChange(arr,w,n);  
 }
